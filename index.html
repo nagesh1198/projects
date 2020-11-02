@@ -1,0 +1,74 @@
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+
+
+
+         <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style type="text/css">
+
+
+            body{
+                background-image:url(FY.jpg);
+
+            }
+            .container{
+                margin:200px;
+                display: flex;
+                justify-content: center;
+
+            }
+            .lbl{
+                color: aliceblue;
+                font-size: 30px
+
+
+            }
+            .in{
+                height: 30px;
+                border-radius: 40px;
+
+            }
+            .in1{
+                height: 30px;
+                border-radius: 40px;
+
+            }
+            .butto{
+                margin-top: 20px;
+                margin-left: 100px;
+                padding: 7px;
+                border-radius: 10px;
+            }
+            
+
+        </style>
+
+        </head>
+ <body>
+        <div class="container">
+        <form action="details.entry.php" method="post">
+
+            <label class="lbl" for="fname" ><strong>First Name:</strong></label>
+            <input class="in" type="text" id="fname" placeholder="   enter your name"><br><br>
+            <label class="lbl" for="lname"><strong>Last name:</strong></label>	
+            <input class="in1" type="text" id="lname" placeholder="  enter your last name">
+            <br><br>
+            <label class="lbl" for="fname" ><strong>GENDER:</strong></label>
+            <input class="in" type="text" id="fname" placeholder="   MALE or FEMALE"><br><br>
+            <label class="lbl" for="lname"><strong>EMAIL:</strong></label>	
+            <input class="in1" type="text" id="lname" placeholder="   enter your email">
+            <br><br>
+            <label class="lbl" for="lname"><strong>PHONE:</strong></label>	
+            <input class="in1" type="text" id="lname" placeholder="   enter your phone number">
+            <br><br>
+            <input type="submit" name="save" value="submit" style="font-size:20px">
+
+        </form>
+     </div>
+        </body>
+
+    </html>
